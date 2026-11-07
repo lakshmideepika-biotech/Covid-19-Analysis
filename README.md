@@ -20,7 +20,7 @@ SQL Server (SSMS), Python (Pandas, Kaggle Notebooks), Power BI
 - Most cases overall: United States, China and India
 
 ## Dashboard
-![Dashboard](covid dashboard.png)
+![Dashboard](dashboard.png)
 
 ## Files
 - `Covid Analytics.sql`: SQL queries (SSMS)
