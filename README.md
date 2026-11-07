@@ -1,35 +1,29 @@
-# COVID-19 Data Analysis
+# COVID-19 Analysis (WHO Data)
 
-## Project Overview
-This project analyzes COVID-19 datasets to understand pandemic trends, cases, recoveries, and deaths using Python, SQL, and Power BI.
+## Objective
+Track how COVID-19 cases and deaths changed across countries and regions over time.
+
+## Dataset
+58,560 weekly records from the WHO COVID-19 cases dataset, covering 240 countries and territories from Jan 2020 to Sep 2024.
 
 ## Tools Used
-- Python
-- SQL
-- Power BI
+SQL Server (SSMS), Python (Pandas, Kaggle Notebooks), Power BI
 
-## Objectives
-- Analyze COVID-19 trends
-- Track confirmed cases and deaths
-- Compare country-wise impact
-- Create an informative dashboard
+## Approach
+1. SQL: wrote queries for totals by country, region and time.
+2. Python: cleaned the data and explored it with EDA.
+3. Power BI: built an interactive dashboard to compare cases and deaths.
 
-## Key Analysis
-- Daily case trends
-- Recovery analysis
-- Death rate analysis
-- Country comparison
-- Time-based analysis
+## Key Findings
+- About 776 million cases and 7 million deaths recorded in total (about 0.9% of cases)
+- Europe (EURO) has the largest share of cases, about 36%
+- Most cases overall: United States, China and India
 
-## Dashboard KPIs
-- Total Cases
-- Total Deaths
-- Total Recoveries
-- Active Cases
-- Death Rate
+## Dashboard
+![Dashboard](dashboard.png.png)
 
-## Skills Demonstrated
-Python | SQL | Power BI | Data Analysis | Dashboard Development
-
-## Author
-Lakshmi Deepika
+## Files
+- `Covid Analytics.sql`: SQL queries (SSMS)
+- `covid-19-analytics.ipynb`: Python EDA notebook
+- `Covid 19 Analytics.pbix`: Power BI dashboard
+- `WHO COVID-19 cases.csv`: dataset
